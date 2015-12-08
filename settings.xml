@@ -7,15 +7,15 @@
 
   <servers>
   	<server>
-  		<id>apple-snapshots</id>
-  		<username>deployment</username>
-  		<password>deployment123</password>
-  	</server>
-  	<server>
-  		<id>apple-releases</id>
-  		<username>deployment</username>
-  		<password>deployment123</password>
-  	</server>
+      <id>nexus-releases</id>
+      <username>admin</username>
+      <password>P@ssw0rdQwert</password>
+    </server>
+     <server>
+      <id>nexus-snapshots</id>
+      <username>admin</username>
+      <password>P@ssw0rdQwert</password>
+    </server>
   </servers>
 
   
@@ -23,7 +23,7 @@
   	<mirror>
     	<id>nexus</id>
         <name>nexus repository</name>                                                                                                                       
-        <url>http://maven.dev.littleapple.com/nexus/content/groups/public/</url>
+        <url>http://mvn.line0.com/nexus/content/groups/public/</url>
         <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
